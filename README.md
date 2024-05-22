@@ -44,14 +44,12 @@ Se debe almacenar en **Base de Datos** los siguientes datos de los **Usuarios**:
 
 Existe un usuario administrador (`admin`) puede realizar las siguientes acciones:
 - **Listar a los pacientes**: Listar todos las pacientes.
-- **Mostar a un paciente**: Mostrar la información de un paciente específico.
 - **Crear un paciente**: Crear un nuevo paciente.
 - **Actualizar un paciente**: Actualizar un paciente existente.
 - **Eliminar un paciente**: Eliminar un paciente existente. 
 
 Existe un usuario doctor (`doctor`) que puede realizar las siguientes acciones:
 - **Listar a los pacientes**: Listar todos las pacientes del equipo.
-- **Mostar a un paciente**: Mostrar la información de un paciente específico.
 
 Los usuarios deben autenticarse en la API para poder realizar las acciones permitidas. Se debe utilizar **Cookies** para mantener la sesión del usuario en la aplicación.
 
