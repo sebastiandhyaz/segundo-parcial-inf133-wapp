@@ -62,8 +62,7 @@ La aplicación debe contar con las siguientes rutas:
 - **/users**: Ruta para registrar un nuevo usuario. Debe mostrar un formulario para registrar un nuevo usuario.
 - **/login**: Ruta para autenticar a un usuario. Debe mostrar un formulario para autenticar a un usuario.
 - **/logout**: Ruta para cerrar la sesión de un usuario. Debe cerrar la sesión del usuario y redirigirlo a la página de inicio.
-- **/patients**: Ruta para listar a los pacientes. Debe mostrar una lista de pacientes.
-- **/patients/{id}**: Ruta para mostrar la información de un paciente específico. Debe mostrar la información de un paciente.
+- **/patients**: Ruta para listar a los pacientes. Debe mostrar una lista de pacientes. Es lo primero que se debe mostrar al autenticarse en la aplicación.
 - **/patients/create**: Ruta para crear un nuevo paciente. Debe mostrar un formulario para crear un nuevo paciente.
 - **/patients/{id}/update**: Ruta para actualizar un paciente existente. Debe mostrar un formulario para actualizar la información del paciente.
 - **/patients/{id}/delete**: Ruta para eliminar un paciente existente. Debe mostrar un mensaje de confirmación para eliminar al paciente.
