@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="subtitle is-2">Editar Paciente</h2>
+<form method="post">
+    <div class="field">
+        <label for="name">Nombres:</label>
+        <div class="control">
+            <input type="text" id="name" name="name" required class="input" value={{ patient.name }}>
+        </div>
+    </div>
+    <div class="field">
+        <label for="species">Apellidos:</label>
+        <div class="control">
+            <input type="text" id="species" name="species" required class="input" value={{ patient.last_name }}>
+        </div>
+    </div>
+    <div class="field">
+        <label for="ci">CI:</label>
+        <div class="control">
+            <input type="number" id="ci" name="ci" required class="input" value={{ patient.ci }}>
+        </div>
+    </div>
+    <div class="field">
+        <label for="birth_date">Fecha de Nacimiento:</label>
+        <div class="control">
+            <input type="text" id="birth_date" name="birth_date" required class="input" value= {{ patient.birth_date }}>
+        </div>
+    </div>
+    <input type="submit" value="Guardar Cambios" class="button is-primary">
+</form>
+{% endblock %}
